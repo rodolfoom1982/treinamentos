@@ -42,7 +42,7 @@ LIMITE_SAQUE_DIARIO = 3 # Limite de saques diários permitido
 LIMITE_OPERACAO_SAQUE = float(500) # Valor máximo permitido por operação saque
 saquesRealizados = 0 # Acumulado de saques já realizados
 saldo = float(0) # Saldo inicial
-transacoes = [] # Lista de operações realizas
+transacoes = [] # Lista de operações realizadas
 
 while True:
 
@@ -72,7 +72,7 @@ while True:
           print('\t >>> E R R O: Insira um valor maior que 0 (zero)!')
 
       except:
-        # Sai da operação de depósito se o valor informado for 's' ou 'S'
+        # Sai da operação de depósito se o valor informado for 'q' ou 'Q'
         if str(valor).upper() == 'Q':
           break
         
@@ -117,7 +117,7 @@ while True:
               print('\t >>> E R R O: Insira um valor maior que 0 (zero)!')
 
           except:
-            # Sai da operação de saque se o valor informado for 's' ou 'S'
+            # Sai da operação de saque se o valor informado for 'q' ou 'Q'
             if str(valor).upper() == 'Q':
               break
             
