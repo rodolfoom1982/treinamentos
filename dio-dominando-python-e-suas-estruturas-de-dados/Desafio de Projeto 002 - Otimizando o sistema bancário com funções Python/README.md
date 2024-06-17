@@ -38,7 +38,8 @@ Otimizar o código do sistema bancário criado no [Desafio de Projeto 001](https
    - O *número da conta* é sequencial, iniciando em 1;
    - O número da agência é fixo: *"0001"*
    - O usuário pode ter mais de uma conta, mas uma conta pertence a somente um usuário;
-   - Para vincular um usuário a uma conta, filtre a lisa de usuários, buscando o número do CPF informado para cada usuário na lista
+   - Para vincular um usuário a uma conta, filtre a lisa de usuários, buscando o número do CPF informado para cada usuário na lista;
+10) Além das função já mencionadas, podem ser criadas outras funções, conforme desejado
 
 <br>
 
