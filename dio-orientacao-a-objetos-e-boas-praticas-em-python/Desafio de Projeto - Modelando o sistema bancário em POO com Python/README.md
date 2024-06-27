@@ -1,5 +1,21 @@
 # Desafio de Projeto - Modelando o Sistema Bancário em POO com Python
 
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(27/Jun/2024)-green)
+
+![Static Badge](https://img.shields.io/badge/Python-blue)
+![Static Badge](https://img.shields.io/badge/Programação_Orientada_a_Objetos_(POO)-blue)
+
+<br>
+
+## Índice
+
+- [Objetivo](#Objetivo)
+- [Requisitos](#Requisitos)
+- [Análise do Diagrama UML](#Análise-do-Diagrama-UML)
+- [Resolução](#Resolução)
+
+<br>
+
 ## Objetivo
 
 Iniciar a modelagem do sistema bancário otimizado no [Desafio de Projeto 002](https://github.com/rodolfoom1982/treinamentos/tree/main/dio-dominando-python-e-suas-estruturas-de-dados/Desafio%20de%20Projeto%20002%20-%20Otimizando%20o%20sistema%20banc%C3%A1rio%20com%20fun%C3%A7%C3%B5es%20Python), utilizando POO (Programação Orientada a Objetos)
@@ -17,7 +33,7 @@ Iniciar a modelagem do sistema bancário otimizado no [Desafio de Projeto 002](h
 
 <br>
 
-## Resolução
+## Análise do Diagrama UML
 
 > [!NOTE]
 > Antes de apresentar a resolução do desafio, segue um entendimento de contexto sobre o diagrama UML apresentado anteriormente
@@ -155,10 +171,10 @@ Iniciar a modelagem do sistema bancário otimizado no [Desafio de Projeto 002](h
      - <kbd>Transacao()</kbd> é uma classe abstrata representando a ideia geral de uma transação;
      - <kbd>Deposito()</kbd> e <kbd>Saque()</kbd> são implementações específicas de <kbd>Transacao()</kbd>
 
-
 <br>
 
-**Código do Programa**
+## Resolução
+
 ~~~Python
 from datetime import date
 from typing import List
