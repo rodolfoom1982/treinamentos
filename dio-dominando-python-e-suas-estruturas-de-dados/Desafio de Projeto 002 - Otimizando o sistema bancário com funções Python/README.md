@@ -263,8 +263,8 @@ def criarUsuario(usuarios):
 
 
   while True:
-    data_nascimento = input("\nInforme a data de nascimento do usuário (DD/MM/AAAA): ")
-    if validar_data(data_nascimento):
+    dataNascimento = input("\nInforme a data de nascimento do usuário (DD/MM/AAAA): ")
+    if validar_data(dataNascimento):
       break
     else:
       print("\t >>> E R R O: Data de nascimento inválida. Informe uma data no formato DD/MM/AAAA.")
@@ -282,14 +282,14 @@ def criarUsuario(usuarios):
 
   while True:
     cep = input("\nInforme o CEP do usuário (somente números): ")
-    dados_cep = buscar_cep(cep)
-    if isinstance(dados_cep, str):
-      print(dados_cep)  # Mensagem de erro retornada pela função buscar_cep
+    dadosCep = buscar_cep(cep)
+    if isinstance(dadosCep, str):
+      print(dadosCep)  # Mensagem de erro retornada pela função buscar_cep
     else:
-      logradouro = dados_cep["logradouro"]
-      bairro = dados_cep["bairro"]
-      cidade = dados_cep["localidade"]
-      estado = dados_cep["uf"]
+      logradouro = dadosCep["logradouro"]
+      bairro = dadosCep["bairro"]
+      cidade = dadosCep["localidade"]
+      estado = dadosCep["uf"]
       endereco = f"{logradouro}, {bairro} - {cidade} / {estado}"
       break
 
@@ -304,7 +304,7 @@ def criarUsuario(usuarios):
   
   usuario = {
       "nome": nome,
-      "data_nascimento": data_nascimento,
+      "dataNascimento": dataNascimento,
       "cpf": cpf,
       "endereco": endereco
   }
@@ -313,7 +313,7 @@ def criarUsuario(usuarios):
 
   print('\nUsuário cadastrado com sucesso!!!')
   print(f'\n\t >>> Nome: {usuario["nome"]}')
-  print(f'\t >>> Data de Nascimento: {usuario["data_nascimento"]}')
+  print(f'\t >>> Data de Nascimento: {usuario["dataNascimento"]}')
   print(f'\t >>> CPF: {usuario["cpf"]}')
   print(f'\t >>> Endereço: {usuario["endereco"]}')
 
@@ -329,7 +329,7 @@ def listarUsuarios(usuarios):
     for i in usuarios:
       print(f'Nome: {"." * (25 - len("Nome:"))} {i["nome"]}')
       print(f'CPF: {"." * (25 - len("CPF:"))} {i["cpf"]}')
-      print(f'Data de Nascimento: {"." * (25 - len("Data de Nascimento:"))} {i["data_nascimento"]}')
+      print(f'Data de Nascimento: {"." * (25 - len("Data de Nascimento:"))} {i["dataNascimento"]}')
       print(f'Endereço: {"." * (25 - len("Endereço:"))} {i["endereco"]}')
       print('-' * 100)
     
@@ -346,7 +346,7 @@ def criarContaCorrente(contas, usuarios):
     return
   
   agencia = "0001"
-  numero_conta = len(contas) + 1
+  numeroConta = len(contas) + 1
 
   while True:
     cpf = input("\nInforme o CPF do usuário para vincular à conta (somente números): ")
@@ -358,7 +358,7 @@ def criarContaCorrente(contas, usuarios):
 
   conta = {
       "agencia": agencia,
-      "numero_conta": numero_conta,
+      "numeroConta": numeroConta,
       "usuario": usuario
   }
   
@@ -366,7 +366,7 @@ def criarContaCorrente(contas, usuarios):
   
   print(f'\nConta corrente criada com sucesso!')
   print(f'\t >>> Agência: {conta["agencia"]}')
-  print(f'\t >>> Número da Conta: {conta["numero_conta"]}')
+  print(f'\t >>> Número da Conta: {conta["numeroConta"]}')
   print(f'\t >>> Usuário: {conta["usuario"]["nome"]}')
   
   return contas
@@ -380,7 +380,7 @@ def listarContas(contas):
 
     for i in contas:
       print(f'Agência: {"." * (25 - len("Agência:"))} {i["agencia"]}')
-      print(f'Número da Conta: {"." * (25 - len("Número da Conta:"))} {i["numero_conta"]}')
+      print(f'Número da Conta: {"." * (25 - len("Número da Conta:"))} {i["numeroConta"]}')
       print(f'Usuário: {"." * (25 - len("Usuário:"))} {i["usuario"]["nome"]}')
       print(f'CPF: {"." * (25 - len("CPF:"))} {i["usuario"]["cpf"]}')
       print('-' * 100)
