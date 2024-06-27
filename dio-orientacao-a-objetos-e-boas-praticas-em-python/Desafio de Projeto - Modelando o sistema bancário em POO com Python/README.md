@@ -114,7 +114,50 @@ Iniciar a modelagem do sistema bancário otimizado no [Desafio de Projeto 002](h
 
 **Conceitos de POO encontrados no diagrama**
 
+1) **Classes e Objetos**
+   - As classes representam entidades do sistema e seus comportamentos;
+   - No diagrama, temos classes como <kbd>Conta()</kbd>, <kbd>Cliente()</kbd>, <kbd>Transacao()</kbd>, <kbd>Deposito()</kbd>, <kbd>Saque()</kbd>, <kbd>Historico()</kbd>, <kbd>ContaCorrente()</kbd> e <kbd>PessoaFisica()</kbd>;
+   - Cada instância dessas classes é um objeto que possui os atributos e métodos definidos na classe
+
+3) **Encapsulamento**
+   - O encapsulamento é a prática de esconder os detalhes internos de uma classe e expor apenas o que é necessário;
+   - No diagrama, cada classe tem atributos privados (não explicitamente marcado, mas implícito pelo design) e métodos públicos que operam nesses atributos;
+   - Por exemplo, os atributos **saldo**, **numero**, **agencia**, **cliente**, e **historico** na classe <kbd>Conta()</kbd> são manipulados por métodos como **sacar**, **depositar** e **nova_conta**
+
+5) **Herança**
+   - Herança é o mecanismo pelo qual uma classe pode herdar atributos e métodos de outra classe. No diagrama, temos:
+     - <kbd>Deposito()</kbd> e <kbd>Saque()</kbd> herdam de <kbd>Transacao()</kbd>;
+     - <kbd>ContaCorrente()</kbd> herda de <kbd>Conta()</kbd>;
+     - <kbd>PessoaFisica()</kbd> herda de <kbd>Cliente()</kbd>
+   - Isso permite que as classes derivadas (subclasses) reutilizem o código das classes base (superclasses) e, ao mesmo tempo, adicionem e/ou modifiquem funcionalidades
+
+4) **Polimorfismo**
+   - Polimorfismo permite que um mesmo método possa se comportar de maneiras diferentes dependendo do objeto que o invoca. No diagrama, temos:
+     - <kbd>Transacao()</kbd> é uma interface com o método registrar que é implementado de forma diferente em <kbd>Deposito()</kbd> e <kbd>Saque()</kbd>;
+     - **realizar_transacao** em <kbd>Cliente()</kbd> pode aceitar diferentes tipos de transações (<kbdDeposito()</kbd> ou <kbd>Saque()</kbd>), mostrando o polimorfismo em ação
+
+5) **Associação**
+   - Associação define um relacionamento entre duas classes. No diagrama, temos:
+     - <kbd>Conta()</kbd> está associada a <kbd>Cliente()</kbd> e <kbd>Historico()</kbd>;
+     - <kbd>Cliente()</kbd> pode ter várias <kbd>Conta()</kbd>;
+     - <kbd>Historico()</kbd> pode ter várias <kbd>Transacao()</kbd>.
+
+6) **Composição**
+   - Composição é um tipo de associação onde uma classe contém a outra e controla seu ciclo de vida. No diagrama, temos:
+     - <kbd>Conta()</kbd> contém um <kbd>Historico()</kbd> e a existência do <kbd>Historico()</kbd> depende da <kbd>Conta()</kbd>;
+     - <kbd>Historico()</kbd> contém <kbdTransacao()</kbd> e controla o ciclo de vida das transações
+
+7) **Agregação**
+   - Agregação é uma forma de associação que representa um relacionamento "tem-um". Por exemplo, o <kbd>Cliente()</kbd> tem um endereço e uma lista de contas, mas as contas podem existir independentemente do cliente
+
+8) **Abstração**
+   - Abstração é o processo de ocultar os detalhes complexos e mostrar apenas a essência. No diagrama, temos:
+     - <kbd>Transacao()</kbd> é uma classe abstrata representando a ideia geral de uma transação;
+     - <kbd>Deposito()</kbd> e <kbd>Saque()</kbd> são implementações específicas de <kbd>Transacao()</kbd>
 
 
+<br>
+
+**Código do Programa**
 ~~~Python
 ~~~
