@@ -8,15 +8,19 @@ Iniciar a modelagem do sistema bancário otimizado no [Desafio de Projeto 002](h
 
 ## Requisitos
 
-1) Adicionar classes para ***cliente*** e para as operações bancárias ***depositar*** e ***sacar****;
+1) Adicionar classes para ***cliente*** e para as operações bancárias ***depositar*** e ***sacar***;
 2) Atualizar a implementação do sistema para armazenar os dados de clientes e contas bancárias em objetos e não mais em dicionários;
 3) O código deverá respeitar o seguinte diagrama UML:
+        >![alt text](readmeFiles/diagramaUML.PNG)
 
 4) ***Desafio Extra***: ao concluir a modelagem das classes e a criação dos métodos, atualizar os métodos que tratam da as opções do ***menu***, de modo que funcionem com as classes modeladas
 
 <br>
 
 ## Resolução
+
+Antes de apresentar a resolução do desafio, segue um entendimento de contexto sobre o diagrama apresentado acima:
+
 
 ~~~Python
 ~~~
