@@ -1,5 +1,19 @@
 # Desafio de Projeto 002 - Otimizando o sistema bancário com funções Python
 
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(26/Jun/2024)-green)
+
+![Static Badge](https://img.shields.io/badge/Python-blue)
+
+<br>
+
+## Índice
+
+- [Objetivo](#Objetivo)
+- [Requisitos](#Requisitos)
+- [Resolução](#Resolução)
+
+<br>
+
 ## Objetivo
 
 Otimizar o código do sistema bancário criado no [Desafio de Projeto 001](https://github.com/rodolfoom1982/treinamentos/tree/main/dio-dominando-python-e-suas-estruturas-de-dados/Desafio%20de%20Projeto%20001%20-%20Criando%20um%20sistema%20banc%C3%A1rio%20com%20Python), utilizando funções em Python, deixando o código mais modularizado
