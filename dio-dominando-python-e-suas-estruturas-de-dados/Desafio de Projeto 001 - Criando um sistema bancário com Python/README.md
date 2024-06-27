@@ -1,6 +1,6 @@
 # Desafio de Projeto 001 - Criando um sistema bancário com Python
 
-![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(26/Jun/2024)-green)
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(16/Jun/2024)-green)
 
 ![Static Badge](https://img.shields.io/badge/Python-blue)
 
