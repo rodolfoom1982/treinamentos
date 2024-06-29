@@ -1,4 +1,4 @@
-![](img/artigoCapa.png)
+![](img/artigoCapaComFoto.png)
 
 ### O que é o Power Automate
 O Power Automate é uma ferramenta da Microsoft que permite automatizar processos e tarefas repetitivas no trabalho. Imagine que você tem várias tarefas manuais que fazem parte do seu dia a dia, como enviar e-mails ou mover arquivos. O Power Automate ajuda a criar fluxos de trabalho automatizados para fazer tudo isso por você, economizando tempo e reduzindo erros.
@@ -21,7 +21,7 @@ Fluxos filhos, ou child flows, são sub-processos dentro de um fluxo principal n
 
 <br>
 
-### Vantagens de utilizar fluxos filhos
+### Vantagens de se utilizar fluxos filhos
 Utilizar fluxos filhos no Power Automate traz diversas vantagens. Primeiramente, eles promovem a reutilização de código, permitindo que partes do fluxo sejam usadas em vários lugares sem duplicação. Isso facilita a manutenção, já que qualquer alteração no fluxo filho é automaticamente aplicada onde ele é utilizado. Além disso, fluxos filhos ajudam a simplificar fluxos complexos, dividindo-os em partes menores e mais gerenciáveis. Isso torna o processo de automação mais claro e organizado, facilitando tanto o desenvolvimento quanto a revisão e o debugging.
 
 <br>
