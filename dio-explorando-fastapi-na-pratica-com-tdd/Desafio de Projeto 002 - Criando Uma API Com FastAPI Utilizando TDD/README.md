@@ -1,12 +1,29 @@
-# TDD Project
+# Desafio de Projeto 002 - Criando uma API com FastAPI Utilizamdo TDD
 
-## O que é TDD?
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(28/Jun/2024)-green)
+
+![Static Badge](https://img.shields.io/badge/Python-blue)
+![Static Badge](https://img.shields.io/badge/FastAPI-blue)
+
+<br>
+
+## Índice
+
+- [TDD Project](#TDD-Project)
+- [Store API](#Store-API)
+- [Referências](#Referências)
+
+<br>
+
+## TDD Project
+
+### O que é TDD?
 TDD é uma sigla para `Test Driven Development`, ou Desenvolvimento Orientado a Testes. A ideia do TDD é que você trabalhe em ciclos.
 
-### Ciclo do TDD
-![C4](/docs/img/img-tdd.png)
+#### Ciclo do TDD
+![C4](docs/img/img-tdd.png)
 
-### Vantagens do TDD
+#### Vantagens do TDD
 - entregar software de qualidade;
 - testar procurando possíveis falhas;
 - criar testes de integração, testes isolados (unitários);
@@ -14,40 +31,42 @@ TDD é uma sigla para `Test Driven Development`, ou Desenvolvimento Orientado a 
 
 A proposta do TDD é que você codifique antes mesmo do código existir, isso nos garante mais qualidade no nosso projeto. Além de que, provavelmente se você deixar pra fazer os testes no final, pode acabar não fazendo. Com isso, sua aplicação perde qualidade e está muito mais propensa a erros.
 
-# Store API
-## Resumo do projeto
+<br>
+
+## Store API
+### Resumo do projeto
 Este documento traz informações do desenvolvimento de uma API em FastAPI a partir do TDD.
 
-## Objetivo
+### Objetivo
 Essa aplicação tem como objetivo principal trazer conhecimentos sobre o TDD, na prática, desenvolvendo uma API com o Framework Python, FastAPI. Utilizando o banco de dados MongoDB, para validações o Pydantic, para os testes Pytest e entre outras bibliotecas.
 
-## O que é?
+### O que é?
 Uma aplicação que:
 - tem fins educativos;
 - permite o aprendizado prático sobre TDD com FastAPI + Pytest;
 
-## O que não é?
+### O que não é?
 Uma aplicação que:
 - se comunica com apps externas;
 
 
-## Solução Proposta
+### Solução Proposta
 Desenvolvimento de uma aplicação simples a partir do TDD, que permite entender como criar tests com o `pytest`. Construindo testes de Schemas, Usecases e Controllers (teste de integração).
 
-### Arquitetura
-|![C4](/docs/img/store.drawio.png)|
+#### Arquitetura
+|![C4](docs/img/store.drawio.png)|
 |:--:|
 | Diagrama de C4 da Store API |
 
-### Banco de dados - MongoDB
-|![C4](/docs/img/product.drawio.png)|
+#### Banco de dados - MongoDB
+|![C4](docs/img/product.drawio.png)|
 |:--:|
 | Database - Store API |
 
 
-## StoreAPI
-### Diagramas de sequência para o módulo de Produtos
-#### Diagrama de criação de produto
+### StoreAPI
+#### Diagramas de sequência para o módulo de Produtos
+##### Diagrama de criação de produto
 
 ```mermaid
 sequenceDiagram
@@ -73,7 +92,7 @@ sequenceDiagram
     Note right of Client: Status Code: 201 - Created
 
 ```
-#### Diagrama de listagem de produtos
+##### Diagrama de listagem de produtos
 
 ```mermaid
 sequenceDiagram
@@ -89,7 +108,7 @@ sequenceDiagram
     Note right of Client: Status Code: 200 - Ok
 ```
 
-#### Diagrama de detalhamento de um produto
+##### Diagrama de detalhamento de um produto
 
 ```mermaid
 sequenceDiagram
@@ -111,7 +130,7 @@ sequenceDiagram
     API->>-Client: Successful Response
     Note right of Client: Status Code: 200 - Ok
 ```
-#### Diagrama de atualização de produto
+##### Diagrama de atualização de produto
 
 ```mermaid
 sequenceDiagram
@@ -138,7 +157,7 @@ sequenceDiagram
     Note right of Client: Status Code: 200 - Ok
 ```
 
-#### Diagrama de exclusão de produto
+##### Diagrama de exclusão de produto
 
 ```mermaid
 sequenceDiagram
@@ -158,7 +177,7 @@ sequenceDiagram
     Note right of Client: Status Code: 204 - No content
 ```
 
-## Desafio Final
+### Desafio Final
 - Create
     - Mapear uma exceção, caso dê algum erro de inserção e capturar na controller
 - Update
@@ -169,13 +188,15 @@ sequenceDiagram
     - cadastre produtos com preços diferentes
     - aplique um filtro de preço, assim: (price > 5000 and price < 8000)
 
-## Preparar ambiente
+### Preparar ambiente
 
 Vamos utilizar Pyenv + Poetry, link de como preparar o ambiente abaixo:
 
 [poetry-documentation](https://github.com/nayannanara/poetry-documentation/blob/master/poetry-documentation.md)
 
-## Links uteis de documentação
+<br>
+
+## Referências
 [mermaid](https://mermaid.js.org/)
 
 [pydantic](https://docs.pydantic.dev/dev/)
@@ -187,3 +208,5 @@ Vamos utilizar Pyenv + Poetry, link de como preparar o ambiente abaixo:
 [mongo-motor](https://motor.readthedocs.io/en/stable/)
 
 [pytest](https://docs.pytest.org/en/7.4.x/)
+
+Projeto Base (DIO): [Criando Uma API Com FastAPI Utilizando TDD](https://web.dio.me/project/tdd-com-python/learning/182318cf-adc7-40b2-b835-e5cf242b482e?back=/track/coding-future-vivo-python-ai-backend-developer&tab=undefined&moduleId=undefined)
