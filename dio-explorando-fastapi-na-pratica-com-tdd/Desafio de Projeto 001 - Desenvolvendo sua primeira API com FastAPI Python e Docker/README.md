@@ -12,7 +12,7 @@
 - [FastAPI](#FastAPI)
 - [Projeto](#Projeto)
 - [Desafio Final](#Desafio-Final)
-- [Referência](#Referência)
+- [Referências](#Referências)
 
 <br>
 
