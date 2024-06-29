@@ -14,7 +14,7 @@
 ## Índice
 
 - [Descrição](#Descrição)
-- [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
+- [Tecnologias Utilizadas](#Tecnologias-Utilizadas-🤖)
 - [Processo de Criação](#Processo-de-Criação)
 - [Resultados](#Resultados)
 - [Reflexão](#Reflexão)
