@@ -11,6 +11,7 @@
 - [Objetivo](#Objetivo)
 - [Requisitos](#Requisitos)
 - [Resolução](#Resolução)
+- [Referências](#Referências)
 
 <br>
 
@@ -168,3 +169,9 @@ while True:
   else:
     print('Opção inválida, tente novamente!')
 ~~~
+
+<br>
+
+## Referências
+
+Projeto Base (DIO): [Criando um Sistema Bancário com Python](https://web.dio.me/project/desafio-de-projeto-criando-um-sistema-bancario/learning/fa812356-0da6-4a85-9ffb-8b255748a288?back=/track/coding-future-vivo-python-ai-backend-developer&tab=undefined&moduleId=undefined)
