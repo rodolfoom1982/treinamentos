@@ -13,6 +13,7 @@
 - [Requisitos](#Requisitos)
 - [Análise do Diagrama UML](#Análise-do-Diagrama-UML)
 - [Resolução](#Resolução)
+- [Referências](#Referências)
 
 <br>
 
@@ -293,3 +294,9 @@ print('\nTransações:')
 for transacao in conta.historico.transacoes:
   print(f"\t{'Depósito' if isinstance(transacao, Deposito) else 'Saque'} de R${transacao.valor:.2f}")
 ~~~
+
+<br>
+
+## Referências
+
+Projeto Base (DIO): [Modelando o Sistema Bancário em POO com Python](https://web.dio.me/project/modelando-o-sistema-bancario-em-poo-com-python/learning/92139fbc-dd1f-44c2-a9dc-61859f246f60?back=/track/coding-future-vivo-python-ai-backend-developer&tab=undefined&moduleId=undefined)
