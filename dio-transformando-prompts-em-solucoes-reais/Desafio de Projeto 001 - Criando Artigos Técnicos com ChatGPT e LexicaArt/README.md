@@ -80,7 +80,7 @@ A última etapa foi a diagramação do conteúdo em um arquivo MD (markdown), di
 
 O resultado final é artigo bem embasado, com uma leitura leve e direta, que pode ajudar a muitas pessoas na resolução dos mesmos problemas de limites de licenciamento que enfreitei
 
-[Clique aqui](artigoPowerAutomate.md) para acessa o artigo no Github
+[Clique aqui](artigoPowerAutomate.md) para acessa o artigo no Github ou [aqui](https://web.dio.me/articles/utilizacao-de-fluxos-filhos-no-microsoft-power-automate?back=%2Farticles&page=1&order=oldest) para acessá-lo no Dio.me
 
 <br>
 
