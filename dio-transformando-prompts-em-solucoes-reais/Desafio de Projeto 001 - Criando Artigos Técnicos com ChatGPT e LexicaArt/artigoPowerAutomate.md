@@ -1,5 +1,7 @@
 ![](img/artigoCapaComFoto.png)
 
+Rodolfo Martin <img src="public/logos/linkedin/linkedin.svg" alt="Spotify Icon"  height="48">
+
 ### O que é o Power Automate
 O Power Automate é uma ferramenta da Microsoft que permite automatizar processos e tarefas repetitivas no trabalho. Imagine que você tem várias tarefas manuais que fazem parte do seu dia a dia, como enviar e-mails ou mover arquivos. O Power Automate ajuda a criar fluxos de trabalho automatizados para fazer tudo isso por você, economizando tempo e reduzindo erros.
 
