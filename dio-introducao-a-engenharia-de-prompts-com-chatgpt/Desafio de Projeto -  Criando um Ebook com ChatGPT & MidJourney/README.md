@@ -34,7 +34,41 @@ seguem abaixo.
 - [PowerPoint](https://www.microsoft.com/en/microsoft-365/powerpoint)
 
 ## 🧠 Prompts
+Iniciei a interação com ChatGPT, contextualizando a minha demanda por meio do seguinte prompt:
 
+~~~
+Crie um título de um ebook sobre o tema de "Riscos de Sermos Enganados por IA".
+O E-book é do nicho de "Tecnologia da Informação" e o subnicho é de "Fake News".
+O título deve ser impactante e curto.
+Me retorne algumas opções para eu escolher a melhor.
+~~~
+
+Como retorno, ele me apresentou uma relação com 5 títulos, na seguinte ordem:
+
+~~~
+1) "A Ascensão da IA: A Armadilha das Fake News"
+2) "Ilusão Digital: Os Perigos da IA Enganadora"
+3) "Verdade ou IA? Desvendando as Fake News"
+4) "A Era da Desinformação: IA e Fake News"
+5) "Enganos Virtuais: IA na Era das Fake News"
+~~~
+
+Gostei muito da 2ª opção apresentada e continuei o script, direcionando quais seriam os próximos passos:
+
+~~~
+Eu escolhi o 2º Título.
+Agora me ajude a desenvolver o E-book, baseado nas {REGRAS} abaixo:
+
+{REGRAS}
+> O e-book deverá ter o primeiro slide com o título, 5 slides de desenvolvimento e 1 slide de conclusão
+> Traga um texto simples e impactante para cada slide (do 1º até a conclusão)
+> Irei utilizar o Midjourney para gerar as imagens
+> Assim, para cada slide, me dê um prompt para eu gerar a imagem no Microsoft Designer Imagem Creator, refletindo o conteúdo do próprio slide
+~~~
+
+Para cada slide, o ChatGPT me retornou um título, um descritivo e um script, em inglês, para ser utilizado na outra ferramenta de IA para geração de imagens (*Microsoft Designer Imagem Creator*). Segue um exemplo do retorno:
+
+> 
 
 ChatGPT：
 
