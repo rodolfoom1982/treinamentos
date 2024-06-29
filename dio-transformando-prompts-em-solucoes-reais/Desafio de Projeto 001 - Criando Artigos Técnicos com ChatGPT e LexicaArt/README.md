@@ -86,4 +86,4 @@ O resultado final é artigo bem embasado, com uma leitura leve e direta, que pod
 
 ## 🔗 Referências
 
-Projeto Base (DIO): [Criando Artigos Técnicos com ChatGPT e Lexica.art]([https://web.dio.me/project/criando-um-ebook-com-chatgpt-midjourney/learning/4ccf3a39-46fc-4ca7-8c26-17899e35da5b?back=/track/santander-2024-fundamentos-de-ia-para-devs&tab=undefined&moduleId=undefined](https://web.dio.me/project/criando-artigos-tecnicos-com-chatgpt-e-lexicaart/learning/b3a4c522-07a4-4697-ae0d-3fdf6add2c22?back=/track/santander-2024-fundamentos-de-ia-para-devs&tab=undefined&moduleId=undefined))
+Projeto Base (DIO): [Criando Artigos Técnicos com ChatGPT e Lexica.art](https://web.dio.me/project/criando-artigos-tecnicos-com-chatgpt-e-lexicaart/learning/b3a4c522-07a4-4697-ae0d-3fdf6add2c22?back=/track/santander-2024-fundamentos-de-ia-para-devs&tab=undefined&moduleId=undefined)
