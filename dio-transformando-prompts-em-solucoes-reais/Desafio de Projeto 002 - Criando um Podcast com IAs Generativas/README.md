@@ -47,8 +47,8 @@ Este podcast deve obedecer ao seguinte formato de roteiro:
 
 {REGRAS}
 - Crie um nome impactante para o podcast
-- No bloco [Introdução], faça uma introdução semelhante às utilizadas pelo canal Código Fonte TV, como se tivesse sido escrito
-  pelo Gabriel Fróes e/ou Vanessa Weber (eu os admirio muito)
+- No bloco [Introdução], faça uma introdução semelhante às utilizadas pelo canal Código Fonte TV, como se tivesse
+  sido escrito pelo Gabriel Fróes e/ou Vanessa Weber (eu os admirio muito)
 - No bloco [Curiosidade 1], traga uma curiosidade sobre os conceitos de programação low-code / no-code
 - No bloco [Curiosidade 2], fale sobre as principais ferramentas de low-code / no-code do mercado
 - No bloco [Finalização], realize uma despedida final marcante, terminada por 'Eu sou o João e esse é o nosso
