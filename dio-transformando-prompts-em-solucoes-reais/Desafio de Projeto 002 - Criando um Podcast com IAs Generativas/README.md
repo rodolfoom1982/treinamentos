@@ -1,12 +1,14 @@
 # Desafio de Projeto - Criando um Podcast com IAs Generativas
 
-![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(29/Jun/2024)-green)
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(30/Jun/2024)-green)
 
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)
 ![Static Badge](https://img.shields.io/badge/IA_Generativa-blue)
-![Static Badge](https://img.shields.io/badge/Colaboração-blue)
+![Static Badge](https://img.shields.io/badge/Edição_e_Conversão_de_Áudio-blue)
 
-![Static Badge](https://img.shields.io/badge/LexixaArt-orange)
+![Static Badge](https://img.shields.io/badge/ElevenLabs-orange)
+![Static Badge](https://img.shields.io/badge/CapCut-orange)
+![Static Badge](https://img.shields.io/badge/AudioJoiner-orange)
 ![Static Badge](https://img.shields.io/badge/OpenIA-orange)
 ![Static Badge](https://img.shields.io/badge/ChatGPT-orange)
 
@@ -92,31 +94,28 @@ Perfeito!
 
 Com o roteiro em mãos, parti para a gravação dos áudios.
 
-Conforme orientação, utilizei a plataforma de IA ***ElevenLab*** e me deparei com um problema: ela é paga. Porém ela permite gravar áudios de até 330 caracteres, motivo pelo qual limitei cada bloco a esta quantidade.
+Conforme orientação, utilizei a plataforma de IA ***[Elevenlabs](https://elevenlabs.io/)*** e me deparei com um problema: ela é paga. Porém ela permite gravar áudios de até 330 caracteres, motivo pelo qual limitei cada bloco a esta quantidade.
 
 Assim, criei 4 áudios diferentes, sendo um para cada bloco do roteiro, tomando o cuidade de utilizar um tom de voz (masculino/feminino) de acordo com o apresentador. O resultado foram os áudios abaixo:
 
-- 
+- [Introdução](output/Introducao.mp3)
+- [Curiosidade 1](output/Curiosidade1.mp3)
+- [Curiosidade 2](output/Curiosidade2.mp3)
+- [Finalização](output/Finalizacao.mp3)
 
-A última etapa, em termos de escrita, foi aprofundar a questão de custos de licenciamento do Power Platform. Optei por ir eu mesmo ao site da Microsoft e coletar esta informação, consolidando em uma imagem (afinal, as imagens valem mais do que mil palavras):
+O próximo passou foi fazer a junção dos arquivos de áudio e, para isso, utilizei a ferramenta online ***[Audio Joiner](https://audio-joiner.com/)***, que é super simples e direta de utilizar. Como resultado, gerei o áudio [Completo](output/PodCastCompleto.mp3).
 
-> ![](img/licenciamentoPowerAutomate.png)
-
-Achei que valia à pena desenhar, também, um diagrama para exemplificar o relacionamento entre fluxos pai e filho, pois muitos leitores tem mais facilidade visual de entendimento. Assim, criei o diagrama abaixo:
-
-> ![](img/diagrama.png)
-
-Pronto!
-
-A última etapa foi a diagramação do conteúdo em um arquivo MD (markdown), disponibilizado aqui no próprio Github.
+Mas ainda faltava um algo mais, tipo... um áudio de fundo! Para isso, editei o arquivo com outra ferramenta online fantástica, chamada ***[CapCut](https://www.capcut.com/editor)***. Ao final da edição, ela gerou um arquivo .mp4, que precisei converter para .mpe utilizando o conversor online ***[FreeConverter](https://www.freeconvert.com/pt/mp4-to-mp3/)***.
 
 <br>
 
 ## 📚 Resultado Final
 
-O resultado final é artigo bem embasado, com uma leitura leve e direta, que pode ajudar a muitas pessoas na resolução dos mesmos problemas de limites de licenciamento que enfreitei
+O resultado final é um podcast simples e direto, 100% gerado com IA e, principalmente, com a curadoria humana, que é essencial para as entregas utilizando estas novas metodologias incríveis.
 
-[Clique aqui](artigoPowerAutomate.md) para acessar o artigo no Github ou [aqui](https://web.dio.me/articles/utilizacao-de-fluxos-filhos-no-microsoft-power-automate?back=%2Farticles&page=1&order=oldest) para acessá-lo no Dio.me
+O podcast completo pode ser consultado aqui: [Podcast 'Código Fácil' - Episódio 1](output/PodCastCompletoComFundoMusical.mp3)
+
+Espero que gostem!!! Foi muito divertido aprender brincando com estas maravilhas que a IA proporciona!
 
 <br>
 
